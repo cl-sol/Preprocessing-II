@@ -1,5 +1,4 @@
 .intro {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,8 +9,9 @@
   .intro-text {
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
     margin: 1% 17%;
+    padding-bottom: 1%;
+    border-bottom: 2px dashed @silver;
   }
 }
 
@@ -73,6 +73,10 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+    }
+
+    button {
+      .btn(85%, 5vh);
     }
   }
 }// home
